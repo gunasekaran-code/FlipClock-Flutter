@@ -1,0 +1,30 @@
+name: clock_app
+description: "Flip & Focus — a premium full-screen clock and focus app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+  path_provider: ^2.1.4
+  file_picker: ^8.1.3
+  image_picker: ^1.1.2
+  intl: ^0.19.0
+  flutter_colorpicker: ^1.1.0
+  wakelock_plus: ^1.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
